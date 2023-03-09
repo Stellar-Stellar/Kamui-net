@@ -1,3 +1,3 @@
-# kamui-net
+# kamui-net landing page
 <!--Dont forget to add credits for images-->
-A website dedicated to Kamui Uehara from The Silver Case
+Landing page as part of the Odin Project. It is based on The Silver Case

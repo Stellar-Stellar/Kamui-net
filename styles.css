@@ -2,6 +2,12 @@ body {
     background: black;
 }
 
+.main-text {
+    font-size: 24px;
+    font-weight: 600;
+    color:rgb(184, 223, 10)
+}
+
 
 .header {
     background: black;
@@ -23,6 +29,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 img {
@@ -45,18 +52,25 @@ img {
     gap: 24px;
 }
 
-.big-text {
+.info-right {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.kamui-big-text {
     font-size: 48px;
     font-weight: 900;
 }
 
-.small-text {
+.kamui-small-text {
     max-width: 500px;
     font-size: 18px;
 }
 
 button {
-    background-color: rgb(31, 31, 160);
+    background-color: rgb(0, 0, 0);
+    color: yellow;
     border-radius: 15px;
     margin-bottom: 12px;
     padding: 12px;
@@ -78,4 +92,66 @@ button {
     text-align: center;
     gap: 24px;
     padding: 32px;
+}
+
+.kusabi-name, .sumio-name, .shinji-name, .morikawa-name, .akira-name {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+.quote-container {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
+    align-items: center;
+}
+
+.kamui-quote {
+    font-size: 64px;
+    font-style: italic;
+}
+
+.contact-background {
+    background: #1d201d;
+    padding: 64px;
+}
+
+.contact-container {
+    background: #bbbb49;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 15px;
+}
+
+.contact-info-left {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+
+.contact-big-text {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.contact-small-text {
+    font-size: 18px;
+    max-width: 500px;
+}
+
+.footer {
+    color:white;
+    text-align: center;
+    padding: 16px;
+}
+
+.kusabi-image, .sumio-image, .shinji-image, .morikawa-image, .akira-image {
+    border-radius: 15px;
+    border-color: rgb(184, 223, 10);
+    border-style: solid;
 }
